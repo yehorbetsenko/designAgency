@@ -836,12 +836,12 @@ a, button {
     }
     &__input {
         font-weight: 400;
-        font-size: 16px;
+        @include adaptive-value('font-size', 16, 14, 1);
         border: 1px solid #000;
         border-radius: 14px;    
         padding: 20px 0 20px 16px;
         @include adaptive-value('padding-right', 400, 50, 1);
-        max-width: 95%;
+        max-width: 92%;
         margin-top: 40px;
     }
     &__btn {

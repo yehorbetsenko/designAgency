@@ -890,8 +890,13 @@ a, button {
   border-radius: 14px;
   padding: 20px 0 20px 16px;
   padding-right: 400px;
-  max-width: 95%;
+  max-width: 92%;
   margin-top: 40px;
+}
+@media (max-width: 1170px) {
+  .subscribe__input {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 850));
+  }
 }
 @media (max-width: 1170px) {
   .subscribe__input {
