@@ -888,13 +888,14 @@ a, button {
   font-size: 16px;
   border: 1px solid #000;
   border-radius: 14px;
-  padding: 20px 400px 20px 16px;
+  padding: 20px 0 20px 16px;
   padding-right: 400px;
+  max-width: 95%;
   margin-top: 40px;
 }
 @media (max-width: 1170px) {
   .subscribe__input {
-    padding-right: calc(70px + 330 * ((100vw - 320px) / 850));
+    padding-right: calc(50px + 350 * ((100vw - 320px) / 850));
   }
 }
 .subscribe__btn {
