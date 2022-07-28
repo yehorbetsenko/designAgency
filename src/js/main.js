@@ -7,6 +7,12 @@ if (burger) {
         nav.classList.toggle('_active');
         rectangle.classList.toggle('_active');
         document.body.classList.toggle('_lock');
+        navServices.classList.remove('_level1');
+        services.classList.remove('_level1');
+        servicesItems.classList.remove('_level1');
+        first.classList.remove('_level1');
+        level1.classList.remove('_level2');
+        level2Items.classList.remove('_level2');
     })
 }
 
@@ -96,7 +102,7 @@ btnAboutUs.addEventListener('click', () => {
     scrollTo(aboutus);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
 })
 
@@ -107,7 +113,7 @@ btnContactUs.addEventListener('click', () => {
     scrollTo(contactus);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
 })
 
@@ -118,8 +124,14 @@ btnPortfolio.addEventListener('click', () => {
     scrollTo(portfolio);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
+    navServices.classList.toggle('_level1');
+    services.classList.toggle('_level1');
+    servicesItems.classList.toggle('_level1');
+    first.classList.toggle('_level1');
+    level1.classList.remove('_level2');
+    level2Items.classList.remove('_level2');
 })
 
 const btnTestimonials = document.querySelector('.goto-testimonials');
@@ -129,8 +141,14 @@ btnTestimonials.addEventListener('click', () => {
     scrollTo(testimonials);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
+    navServices.classList.toggle('_level1');
+    services.classList.toggle('_level1');
+    servicesItems.classList.toggle('_level1');
+    first.classList.toggle('_level1');
+    level1.classList.remove('_level2');
+    level2Items.classList.remove('_level2');
 })
 
 const btnAddress = document.querySelector('.goto-address');
@@ -140,8 +158,14 @@ btnAddress.addEventListener('click', () => {
     scrollTo(address);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
+    navServices.classList.toggle('_level1');
+    services.classList.toggle('_level1');
+    servicesItems.classList.toggle('_level1');
+    first.classList.toggle('_level1');
+    level1.classList.remove('_level2');
+    level2Items.classList.remove('_level2');
 })
 
 const btnMain = document.querySelector('.goto-main');
@@ -151,8 +175,14 @@ btnMain.addEventListener('click', () => {
     scrollTo(main);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
+    navServices.classList.toggle('_level1');
+    services.classList.toggle('_level1');
+    servicesItems.classList.toggle('_level1');
+    first.classList.toggle('_level1');
+    level1.classList.remove('_level2');
+    level2Items.classList.remove('_level2');
 })
 
 const btnAdvantages = document.querySelector('.goto-advantages');
@@ -162,6 +192,12 @@ btnAdvantages.addEventListener('click', () => {
     scrollTo(advantages);
     burger.classList.remove('_active');
     nav.classList.remove('_active');
-    rectangle.classList.romove('_active');
+    rectangle.classList.remove('_active');
     document.body.classList.remove('_lock');
+    navServices.classList.toggle('_level1');
+    services.classList.toggle('_level1');
+    servicesItems.classList.toggle('_level1');
+    first.classList.toggle('_level1');
+    level1.classList.remove('_level2');
+    level2Items.classList.remove('_level2');
 })
